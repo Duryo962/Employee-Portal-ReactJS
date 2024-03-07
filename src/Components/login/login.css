@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    /* background-color:"black"; */
+  }
+  
+  .custom-card {
+    text-align: center;
+    /* background-color: rgb(20, 20, 121); */
+    width: 555px;
+    transition: box-shadow 0.9s ease;
+    margin:0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .custom-card:hover {
+    box-shadow: 0 0 30px 0px #2E7D32; /* Adding the glowing effect on hover */
+  }
+  
+  .custom-h2:hover {
+    color: #2E7D32 ;
+  }
